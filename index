@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <title>ศรชล. Smart Service Desk</title>
+
+    <link rel="icon" type="image/png"
+        href="https://thai-mecc.go.th/share//history/contentgydfyoxgfstmswyjrdwd.png">
+    <style>
+        /* ลบขอบและระยะห่างเริ่มต้นของเบราว์เซอร์ */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html {
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: 0;
+        }
+
+        body {
+            position: fixed;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            height: 100dvh;
+            margin: 0 !important;
+            padding: 0 !important;
+            overflow: hidden;
+            border: 0;
+        }
+
+        /* ขยาย Google Apps Script ให้เต็มจอ */
+        #app {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            overflow: hidden;
+        }
+
+        #app iframe {
+            position: absolute;
+            inset: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="app">
+        <iframe
+            src="https://script.google.com/macros/s/AKfycby6xvMaFZqdwi8RlN6QcgZhwTpMZ867b3zqKhq147Zcmn1j6HBfXA7f692-li0mg9pvwQ/exec"
+            title="ศรชล. Smart Service Desk">
+        </iframe>
+    </main>
+</body>
+</html>
